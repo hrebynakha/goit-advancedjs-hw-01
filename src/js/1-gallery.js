@@ -84,4 +84,4 @@ const galleryItems = images
 const gallery = document.querySelector('.gallery');
 gallery.insertAdjacentHTML('beforeend', galleryItems);
 
-new SimpleLightbox('.gallery a', { captionsData: 'alt' });
+new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
